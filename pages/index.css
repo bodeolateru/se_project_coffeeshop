@@ -6,3 +6,115 @@
   font-size: 16px;
   line-height: 20px;
 }
+.header {
+  padding: 30px 80px 40px;
+  background-color: #fff;
+  background-image: url(../images/background_header.svg);
+  position: relative;
+  margin: 800px;
+  display: flex;
+  flex-direction: column;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.headre__title {
+  margin: 183px 0 0;
+  max-width: 729px;
+  font-family: "inter";
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 72px;
+}
+
+.header__span-accent {
+  display: block;
+  font-family: "Noto Serif", Times New Roman, Serif;
+  font-style: italic;
+  color: #3f96f3;
+}
+
+.header__description {
+  margin: 28px 0 0;
+  max-width: 683px;
+  font-family: "Noto Serif", Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+  /*todo: font styles*/
+}
+.header__image {
+  position: absolute;
+  top: 124px;
+  width: 646px;
+  length: 568px;
+}
+
+.header__footer {
+  margin-top: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #6f6f6f;
+}
+
+.header__paragraph {
+  margin: 0px;
+  /*todo: font styles*/
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__logo {
+  width: 105px;
+  height: 39px;
+  position: relative;
+  left: -50px;
+}
+
+.nav__links {
+  display: flex;
+  gap: 20px;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.nav__link {
+  /* remove the underline, change color*/
+  /*todo: font styles*/
+}
+
+.recipes {
+  color: #fff;
+  background-color: #0a2750;
+  padding: 100px 80px 215px;
+}
+
+.recipes__title {
+  margin: 0 0 24px;
+}
+
+.recipes__subtitile {
+  margin: 0 0 80px;
+}
+.recipess__viodes {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+
+.recipes__video-caption {
+  display: flex;
+  justify-content: space-between;
+}
